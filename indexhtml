@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+  <title>
+  Sally's Christian Care
+  </title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="images/favicon-96x96.png">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+  <header>
+    <h1> <a href="index.html">Sally's Christian Daycare</a></h1>
+    <p><h3>A place to learn, love, and grow!</h3></p>
+  </header>
+
+  <nav id="nav_list_1">
+  <ul>
+    <li><a href="contactme.html">Contact Me</a></li>
+    <li><a href="services.html">Services</a>
+              <ul>
+                  <li><a href="forms.html">Forms</a></li>
+              </ul>
+          </li>
+    <li><a href="aboutme.html">About Me</a></li>
+    <li><a href="index.html">Home</a></li>
+  </ul>
+  </nav>
+
+  <main>
+
+    <img src="images/indexFeaturedImage.jpg" alt="homepage featured image" height="400" width="500">
+    <p>Located in Columbia, Maryland. </p>
+    <p>For any inquiries, contact me <a href="contactme.html"> here</a> today!</p>
+  </main>
+
+  <aside>
+  <h1>
+    Hours of Operation:</h1>
+  <p>Monday: 7AM-7PM</p>
+  <p>Tuesday: 7AM-7PM</p>
+  <p>Wednesday: 7AM-7PM</p>
+  <p>Thursday: 7AM-7PM</p>
+  <p>Friday: 7AM-7PM</p>
+  <p>Weekends: Flexible
+  <p>**These are my general hours; if you need care outside these times, my schedule is always flexible!</p>
+  </aside>
+  <footer>
+    <p><img src="images/facebooklogo.png" alt="facebook logo" height="20" width="20"> Find Me on Facebook: <a href="https://www.facebook.com/sallychristiandaycare/?ref=page_internal" target="_blank">Sally's Christian Daycare</a><br>
+    <img src="images/emaillogo.jpg" alt="email icon" height="20" width="20"> Have a Question? Send me an <a href="mailto:saljama21@hotmail.com"> email</a><br>
+    <img src="images/phoneicon.png" alt="phone icon" height="20" width="20">Concerns? Feel free to <a href="tel:4435352597">call</a><br>
+  </footer>
+</body>
+
+</html>
