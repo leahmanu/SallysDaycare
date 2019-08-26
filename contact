@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+  <title>
+  Contact Sally's Christian Care
+</title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="images/favicon-96x96.png">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <header>
+    <h1> <a href="index.html">Sally's Christian Daycare</a></h1>
+    <h2> Contact Me</h2>
+  </header>
+
+  <nav id="nav_list_1">
+  <ul>
+    <li><a href="contactme.html">Contact Me</a></li>
+    <li><a href="services.html">Services</a>
+              <ul>
+                  <li><a href="forms.html">Forms</a></li>
+              </ul>
+          </li>
+    <li><a href="aboutme.html">About Me</a></li>
+    <li><a href="index.html">Home</a></li>
+  </ul>
+  </nav>
+
+  <main>
+      <form action="formSubmitted.html">
+        <fieldset>
+          <legend> <h3>Contact Form</h3></legend>
+          <p>
+        <label for="parentsname"> Your Name:</label>
+        <input type="text" name="parentsfirstname" required autofocus placeholder="First & Last Name"><br>
+        <label for="childsname"> Your Child's Name:</label>
+        <input type="text" name="childsname" required placeholder="First & Last Name"><br>
+        <label for="phonenumber">Phone Number:</label>
+        <input type="text" name="phonenumber" required pattern=[0-9]* min="10"><br>
+        </p>
+          The type of care I need is for:<br>
+          <input type="checkbox" name="childage" value="infant">Infant Care<br>
+          <input type="checkbox" name="childage" value="toddler">Toddler Care<br>
+          <input type="checkbox" name="childage" value="preschooler">Preschooler Care<br>
+          <input type="checkbox" name="childage" value="gsbeforeschool">Grade School Before Care<br>
+          <input type="checkbox" name="childage" value="gsafterschool"> Grade School After Care<br>
+        <p>
+            I am looking for childcare for these days: (<em>Check all that may apply</em>)<br>
+            <input type="checkbox" name="day" value="Monday">Monday<br>
+            <input type="checkbox" name="day" value="Tuesday">Tuesday<br>
+            <input type="checkbox" name="day" value="Wednesday">Wednesday<br>
+            <input type="checkbox" name="day" value="Thursday">Thursday<br>
+            <input type="checkbox" name="day" value="Friday">Friday<br>
+            <input type="checkbox" name="day" value="Saturday">Saturday<br>
+            <input type="checkbox" name="day" value="Sunday">Sunday<br>
+
+        </p>
+
+        <p>
+            I am looking for childcare for these times: (<em>Check all that may apply</em>)<br>
+            <input type="checkbox" name="time" value="Mornings">Mornings<br>
+            <input type="checkbox" name="time" value="Afternoons">Afternoons<br>
+            <input type="checkbox" name="time" value="Evenings">Evenings<br>
+
+        </p>
+        <p>
+        Additional Comments:
+        <input type="textarea" name="commentarea" rows="6" columns="12">
+      </p>
+      <p>
+        <input type="submit" name"submit" value="submit">
+      </p>
+  </fieldset>
+      </form>
+  </main>
+  <footer>
+    <p><img src="images/facebooklogo.png" alt="facebook logo" height="20" width="20"> Find Me on Facebook: <a href="https://www.facebook.com/sallychristiandaycare/?ref=page_internal" target="_blank">Sally's Christian Daycare</a><br>
+    <img src="images/emaillogo.jpg" alt="email icon" height="20" width="20"> Have a Question? Send me an <a href="mailto:saljama21@hotmail.com"> email</a><br>
+    <img src="images/phoneicon.png" alt="phone icon" height="20" width="20">Concerns? Feel free to <a href="tel:4435352597">call</a><br>
+  </footer>
+</body>
+
+
+</html>
