@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+  <title>
+  About Sally's Christian Care
+  </title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="images/favicon-96x96.png">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <header>
+    <h1> <a href="index.html">Sally's Christian Daycare</a></h1>
+    <h2> About Me</h2>
+  </header>
+
+  <nav id="nav_list_1">
+  <ul>
+    <li><a href="contactme.html">Contact Me</a></li>
+    <li><a href="services.html">Services</a>
+              <ul>
+                  <li><a href="forms.html">Forms</a></li>
+              </ul>
+          </li>
+    <li><a href="aboutme.html">About Me</a></li>
+    <li><a href="index.html">Home</a></li>
+  </ul>
+  </nav>
+
+  <main>
+    <h1>About Me</h1>
+    <p>I am a licensed day care provider. Daycare is something I enjoy and have been doing for about 19 years.<br>
+    My goal is to provide effective and affordable care for your children
+       in a play and learn environment with love in a Christian atmosphere.<br></p>
+
+    <h1>My Mission and Values</h1>
+    <p>Aside from the parents themselves, Sally's Christian Daycare beleives nurturing families are the
+        best providers of care for young children.<br>
+      I believe parents, teachers and child care providers are all partners
+       in children's care, development and education. Each role should be valued while respecting a parent's right
+       as final arbitor for thier children. In order to best serve the needs of families in Columbia, Sally's Christian Care offers  full-time infant, toddler,
+       preschool and before/after school care.<br>
+       My promise to you is to always maintain a safe and healthy environment that fosters an atmosphere of social and emotional development.<br>
+       My pledge is to work closely with you in propping up the pillars of your child's personal foundation: <strong>Self Esteem</strong>, <strong>Dignity</strong> and <strong>Respect</strong>.</p>
+  </main>
+  <footer>
+    <p><img src="images/facebooklogo.png" alt="facebook logo" height="20" width="20"> Find Me on Facebook: <a href="https://www.facebook.com/sallychristiandaycare/?ref=page_internal" target="_blank">Sally's Christian Daycare</a><br>
+    <img src="images/emaillogo.jpg" alt="email icon" height="20" width="20"> Have a Question? Send me an <a href="mailto:saljama21@hotmail.com"> email</a><br>
+    <img src="images/phoneicon.png" alt="phone icon" height="20" width="20">Concerns? Feel free to <a href="tel:4435352597">call</a><br>
+  </footer>
+</body>
+
+
+
+
+</html>
